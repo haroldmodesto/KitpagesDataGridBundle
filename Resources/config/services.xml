@@ -13,7 +13,7 @@
     </parameters>
 
     <services>
-        <service id="kitpages_data_grid.grid_manager" class="%kitpages_data_grid.grid_manager.class%">
+        <service id="kitpages_data_grid.grid_manager" class="%kitpages_data_grid.grid_manager.class%" public="true">
             <argument type="service" id="event_dispatcher"/>
             <argument type="service" id="kitpages_data_grid.paginator_manager"/>
             <argument type="service" id="kitpages_data_grid.item_list_normalizer.standard"/>
