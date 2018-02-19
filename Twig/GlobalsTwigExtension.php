@@ -3,7 +3,7 @@ namespace Kitpages\DataGridBundle\Twig;
 
 
 class GlobalsTwigExtension
-    extends \Twig_Extension implements Twig_Extension_GlobalsInterface
+    extends \Twig_Extension implements \Twig_Extension_GlobalsInterface
 {
     protected $gridParameterList;
     protected $paginatorParameterList;
